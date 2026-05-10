@@ -1,4 +1,4 @@
-# IS584 Term Project
+# IS584 Term Project - özgü özkan
 **IS 584: Deep Learning for Text Analytics**  
 Middle East Technical University – Graduate School of Informatics, Spring 2026
 
@@ -15,13 +15,6 @@ This project investigates transformer-based neural retrieval models on the **TRE
 - **Splits:** Train (150 queries), Dev1 (150), Dev2 (150), Test (600)
 - **Source:** [https://zenodo.org/records/11185090](https://zenodo.org/records/11185090)
 
-## Pipeline
-```
-BM25 (pyserini)       ──┐
-                         ├──► RRF Fusion ──► Hybrid System
-Bi-encoder             ──┘
-(all-MiniLM-L6-v2)
-```
 
 Three systems are compared:
 1. **BM25** — sparse lexical baseline
@@ -70,7 +63,4 @@ python src/evaluation/evaluate.py
 ```
 
 ## Experiment Tracking
-- **Weights & Biases:** [WandB Project Link]
-- **GitHub:** [GitHub Repo Link]
-
 > See `links.txt` for actual links.
