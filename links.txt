@@ -1,0 +1,2 @@
+github:https://github.com/ozguozkan/IS584_TermProject
+wandb:https://wandb.ai/ozgukan/is584-tot-retrieval?nw=nwuserozgukan
